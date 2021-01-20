@@ -4,11 +4,10 @@ import './Nav.css'
 export default (props) => {
     return (
         <nav className='nav'>
-            <ul>
-                <li>Item1</li>
-                <li>Item1</li>
-                <li>Item1</li>
-            </ul>
+            <a href="#" className="notification">
+                <span>Lista</span>
+                <span className="badge">3</span>
+            </a>
         </nav>
     )
 }
