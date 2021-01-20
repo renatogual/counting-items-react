@@ -4,7 +4,7 @@ import './Button.css'
 export default (props) => {
     return (
         <div className="btn">
-            <button>{props.operation}</button>
+            <button onClick={props.setItem}>{props.operation}</button>
         </div>
     )
 }

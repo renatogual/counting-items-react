@@ -6,7 +6,7 @@ import Button from '../components/Button'
 export default (props) => {
     return (
         <div className="display">
-            0
+            {props.number}
         </div>
     )
 }
