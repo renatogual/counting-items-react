@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import './Badge.css'
+import {AppContext} from '../context/Contador'
 
 export default (props) => {
+    const context = useContext(AppContext)
 
     return (
-        <a href="#" className="notification">
+        <div className="notification">
             <span>Contador</span>
-            <span className="badge">0</span>
-        </a>
+            <span className="badge">{context.contador}</span>
+        </div>
+            
     )
 }
