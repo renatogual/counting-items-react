@@ -1,0 +1,8 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #656565;
+}
