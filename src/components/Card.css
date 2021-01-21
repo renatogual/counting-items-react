@@ -1,13 +1,12 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    min-width: 200px;
     height: 200px;
     background-color: #e0e0e0;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 #00000098;
     transition: 0.3s;
 }
